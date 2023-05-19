@@ -14,7 +14,7 @@ document.addEventListener("keydown" ,function(event) {
 });
 
 function makesound(key) {
-  switch(key) {
+  switch(key.toLowerCase()) {
 
     case "w" :
     var audio = new Audio("sounds/tom-1.mp3");
